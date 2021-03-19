@@ -3,7 +3,9 @@
 
 <head>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
   <style>
     body {
       margin-right: auto;
@@ -25,14 +27,13 @@
     }
 
     .header-row {
-      display: flex;
       flex-direction: row;
       margin: 20px;
       text-align: center;
-
     }
+
     .header-row img {
-      height: 350px;
+      width: 100%;
     }
 
     .title-column {
@@ -52,12 +53,12 @@
       padding-bottom: 20px;
     }
 
-    .date{
+    .date {
       font-size: 1.20em;
       font-style: italic;
     }
 
-    .time{
+    .time {
       font-size: 1.20em;
       font-style: italic;
       padding-bottom: 40px;
@@ -82,8 +83,6 @@
       border-style: solid;
       border-width: 1px;
     }
-
-
   </style>
   <meta charset="utf-8">
   <title> One Small Voice: Virtual Cabaret and Community Night </title>
@@ -91,30 +90,31 @@
 
 <body>
   <div class="container">
-
-
-    <div class="header-row">
+    <div class="header-row md:flex">
       <div><img src="images/smile.jpg" /></div>
       <div class="title-column">
         <div class="title"> One Small Voice:</div>
         <div>
           <div class="subtitle">Virtual Cabaret and Community Night</div>
-          <div class = "date">Friday, April 23, 2021 </div>
-          <div class = "time">7:00 pm to 8:30pm.</div>
+          <div class="date">Friday, April 23, 2021 </div>
+          <div class="time">7:00 pm to 8:30pm.</div>
           <a class="evite" href="http://evite.me/ysMqqgkUv7" target="_blank">RSVP</a>
         </div>
       </div>
     </div>
     <div class="description">
-      Come join us for a virtual cabaret! Megan will be singing and playing some songs she's been working on with her voice teacher--the lovely Kate Merryman at Musicologie.
+      Come join us for a virtual cabaret! Megan will be singing and playing some songs she's been working on with her
+      voice teacher--the lovely Kate Merryman at Musicologie.
     </div>
     <div class="community-night">
-    
-        Since Megan has to sing by herself--for now--we would like to invite you to participate in the evening in a few different ways. You can . . . </break>
+
+      Since Megan has to sing by herself--for now--we would like to invite you to participate in the evening in a few
+      different ways. You can . . . </break>
 
       <h4><strong>Make some art:</strong></h4>
       <ul>
-        <li>knit, paint, draw, crochet, or otherwise create arts and crafts while you are listening to the cabaret. </li>
+        <li>knit, paint, draw, crochet, or otherwise create arts and crafts while you are listening to the cabaret.
+        </li>
         <li>We'll have a break during the show for people to share their artistic creations with the group if they like.
       </ul>
 
@@ -128,7 +128,7 @@
         <li>donate to the Homeless Families Foundation </li>
         <li>We will set a goal for donations and see if we can hit it together. We'll check in on the donations
           throughout the evening.</li>
-        </ul>    
+      </ul>
 
       <h4> <strong>Sing along:</strong> </h4>
       <ul>
